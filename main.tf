@@ -4,7 +4,7 @@ provider "google" {
   zone    = "us-central1-c"
 }
 resource "google_compute_instance" "default" {
-  name         = "betz4871-testvm1"
+  name         = "instance-1"
   machine_type = "f1-micro"
   zone         = "us-central1-c"
   boot_disk {
@@ -20,9 +20,3 @@ resource "google_compute_instance" "default" {
     }
   }
 }
-
-
-
-
-
-
